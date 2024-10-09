@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de Piadas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Gerador de Piadas</h1>
+
+      <!-- Dropdown para selecionar o tipo de piada -->
+      <label for="category">Escolha uma categoria:</label>
+      <select id="category">
+        <option value="Any">Qualquer</option>
+        <option value="Programming">Programação</option>
+        <option value="Misc">Diversas</option>
+        <option value="Dark">Humor Negro</option>
+        <option value="Spooky">Assustadoras</option>
+        <option value="Christmas">Natal</option>
+      </select>
+
+      <button id="jokeBtn">Gerar Piada</button>
+      <p id="jokeDisplay">Clique no botão para ver uma piada!</p>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
